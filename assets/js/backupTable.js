@@ -1,4 +1,4 @@
-// ********************************************** admin-dashboard **********************************************
+// ********************************************** index **********************************************
 // backup table
 // Function to create a table row for each data item
 function createTableRow(data) {
