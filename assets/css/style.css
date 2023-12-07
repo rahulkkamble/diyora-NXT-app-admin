@@ -594,7 +594,7 @@ body {
 
 .product-card,
 .table-card {
-  max-height: 502px;
+  /* max-height: 502px; */
   overflow: auto;
 }
 
@@ -1183,9 +1183,9 @@ div.dataTables_wrapper div.dataTables_filter input{
   /* margin-bottom: 1rem; in smaller size */
 }
 
-div.dataTables_wrapper div.dataTables_filter{
-  /* display: flex; */
-}
+/* div.dataTables_wrapper div.dataTables_filter{
+  display: flex;
+} */
 
 /* css replacements */
 .form-control:focus, .form-select:focus, .form-check-input:focus {
