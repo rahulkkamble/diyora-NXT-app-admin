@@ -57,12 +57,15 @@
                 </li>
                 <li class="list-icon">
                     <a href="./admin-kiosk.html" class="sidebar-icon-outside invert-img rounded rounded-4">
-                        <img class="p-3 icon"  width="50" height="50" src="https://img.icons8.com/fluency-systems-regular/48/self-service-kiosk.png" alt="self-service-kiosk" alt="Kiosk">
+                        <img class="p-3 icon" width="50" height="50"
+                            src="https://img.icons8.com/fluency-systems-regular/48/self-service-kiosk.png"
+                            alt="self-service-kiosk" alt="Kiosk">
                     </a>
                 </li>
                 <li class="list-icon">
                     <a href="./admin-retailer.html" class="sidebar-icon-outside invert-img rounded rounded-4">
-                        <img class="p-3 icon" width="50" height="50" src="https://img.icons8.com/parakeet-line/48/handshake.png" alt="handshake" alt="Retailer">
+                        <img class="p-3 icon" width="50" height="50"
+                            src="https://img.icons8.com/parakeet-line/48/handshake.png" alt="handshake" alt="Retailer">
                     </a>
                 </li>
             </ul>
@@ -133,7 +136,8 @@
                                 <div class="d-flex align-items-center">
                                     <div
                                         class="me-4 me-sm-3 icon icon-shape bg-success-light shadow-sm text-center rounded rounded-4">
-                                        <img class="p-2" src="https://img.icons8.com/doodle/48/price-tag--v2.png" alt="price-tag--v2">
+                                        <img class="p-2" src="https://img.icons8.com/doodle/48/price-tag--v2.png"
+                                            alt="price-tag--v2">
                                     </div>
                                     <div class="numbers">
                                         <h5 class="fw-bolder text-nowrap mb-0">Tags</h5>
@@ -153,7 +157,8 @@
                                     <div
                                         class="me-4 me-sm-3 icon icon-shape bg-success-light shadow-sm text-center rounded rounded-4">
                                         <!-- <i class="fi fi-rr-coins"></i> -->
-                                        <img class="p-2" src="https://img.icons8.com/doodle/48/box--v2.png" alt="box--v2">
+                                        <img class="p-2" src="https://img.icons8.com/doodle/48/box--v2.png"
+                                            alt="box--v2">
                                     </div>
                                     <div class="numbers">
                                         <h5 class="fw-bolder text-nowrap mb-0">
@@ -176,7 +181,9 @@
                                     <div
                                         class="me-4 me-sm-3 icon icon-shape bg-success-light shadow-sm text-center rounded rounded-4">
                                         <!-- <i class="fi fi-rr-coins"></i> -->
-                                        <img class="p-2" src="https://img.icons8.com/external-filled-outline-design-circle/64/external-Collection-online-shopping-filled-outline-design-circle.png" alt="external-Collection-online-shopping-filled-outline-design-circle">
+                                        <img class="p-2"
+                                            src="https://img.icons8.com/external-filled-outline-design-circle/64/external-Collection-online-shopping-filled-outline-design-circle.png"
+                                            alt="external-Collection-online-shopping-filled-outline-design-circle">
                                     </div>
                                     <div class="numbers">
                                         <h5 class="fw-bolder text-nowrap mb-0">
@@ -202,7 +209,8 @@
                                     <div
                                         class="me-4 me-sm-3 icon icon-shape bg-success-light shadow-sm text-center rounded rounded-4">
                                         <!-- <i class="fi fi-rr-coins"></i> -->
-                                        <img class="p-2" src="https://img.icons8.com/stickers/100/categorize.png" alt="categorize">
+                                        <img class="p-2" src="https://img.icons8.com/stickers/100/categorize.png"
+                                            alt="categorize">
                                     </div>
                                     <div class="numbers">
                                         <h5 class="fw-bolder text-nowrap mb-0">
@@ -225,52 +233,58 @@
                     <!-- Content for the GOLD tab -->
                     <!-- =========================== datatable for customer orders ========================= -->
                     <!-- <section class="d-non recent-orders-and-top-selling-products-section pt-0"> -->
-                        <div class="row mb-4 pt-0 removable">
-                            <!-- dynamic datatable -->
-                            <div class="col-12 pt-0">
-                                <div class="card table-card rounded rounded-4 shadow-sm border-0 mb-4">
-                                    <div class="card-header sticky-top rounded rounded-4 border-0 bg-white p-3 pb-0">
-                                        <h6 class="mb-0">Tags</h6>
+                    <div class="row mb-4 pt-0 removable">
+                        <!-- dynamic datatable -->
+                        <div class="col-12 pt-0">
+                            <div class="card table-card rounded rounded-4 shadow-sm border-0 mb-4">
+                                <div class="card-header d-flex justify-content-between sticky-top rounded rounded-4 border-0 bg-white p-3 pb-0">
+                                    <h6 class="mb-0">Tags</h6>
+                                    <div class="add-new-btn">
+                                        <button type="button" class="border-0 rounded-3 p-2 px-4 btn btn-success">
+                                            <!-- <img width="45" height="45" src="https://img.icons8.com/ios/50/plus.png"
+                                                alt="plus" /> -->
+                                                + Add New Tag
+                                        </button>
                                     </div>
-                                    <div class="card-body px-0 pt-0 pb-2">
-                                        <div class="table-responsive px-3 mt-2">
-                                            <table id="customer-order-table"
-                                                class="table recent-order-table align-items-center border-nne mb-0">
-                                                <thead>
-                                                    <tr>
-                                                        <th
-                                                            class="ps-3 text-secondary fs-6 text-center fw-bold opacity-7">
-                                                            Image
-                                                        </th>
-                                                        <th class="ps-3 text-secondary fs-6 fw-bold opacity-7">Product
-                                                            Name</th>
-                                                        <th class="text-secondary fs-6 fw-bold opacity-7 ps-2">Tracking
-                                                            ID</th>
-                                                        <th class="text-center text-secondary fs-6 fw-bold opacity-7">
-                                                            Order Date
-                                                        </th>
-                                                        <th class="text-center text-secondary fs-6 fw-bold opacity-7">
-                                                            Order Type
-                                                        </th>
-                                                        <th class="text-center text-secondary fs-6 fw-bold opacity-7">
-                                                            Order Total
-                                                        </th>
-                                                        <th class="text-center text-secondary fs-6 fw-bold opacity-7">
-                                                            Status</th>
-                                                        <th class="text-center text-secondary fs-6 fw-bold opacity-7">
-                                                            Actions</th>
-                                                        <!-- <th class="text-secondary opacity-7"></th> -->
-                                                    </tr>
-                                                </thead>
-                                                <tbody class="text-nowrap">
-                                                    <!-- this is dynamically generating -->
-                                                </tbody>
-                                            </table>
-                                        </div>
+                                </div>
+                                <div class="card-body px-0 pt-0 pb-2">
+                                    <div class="table-responsive px-3 mt-2">
+                                        <table id="customer-order-table"
+                                            class="table recent-order-table align-items-center border-nne mb-0">
+                                            <thead>
+                                                <tr>
+                                                    <th class="ps-3 text-secondary fs-6 text-center fw-bold opacity-7">
+                                                        Image
+                                                    </th>
+                                                    <th class="ps-3 text-secondary fs-6 fw-bold opacity-7">Product
+                                                        Name</th>
+                                                    <th class="text-secondary fs-6 fw-bold opacity-7 ps-2">Tracking
+                                                        ID</th>
+                                                    <th class="text-center text-secondary fs-6 fw-bold opacity-7">
+                                                        Order Date
+                                                    </th>
+                                                    <th class="text-center text-secondary fs-6 fw-bold opacity-7">
+                                                        Order Type
+                                                    </th>
+                                                    <th class="text-center text-secondary fs-6 fw-bold opacity-7">
+                                                        Order Total
+                                                    </th>
+                                                    <th class="text-center text-secondary fs-6 fw-bold opacity-7">
+                                                        Status</th>
+                                                    <th class="text-center text-secondary fs-6 fw-bold opacity-7">
+                                                        Actions</th>
+                                                    <!-- <th class="text-secondary opacity-7"></th> -->
+                                                </tr>
+                                            </thead>
+                                            <tbody class="text-nowrap">
+                                                <!-- this is dynamically generating -->
+                                            </tbody>
+                                        </table>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
                     <!-- </section> -->
                 </div>
                 <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
@@ -288,8 +302,7 @@
                                             class="table recent-order-table align-items-center border-nne mb-0">
                                             <thead>
                                                 <tr>
-                                                    <th
-                                                        class="ps-3 text-secondary fs-6 text-center fw-bold opacity-7">
+                                                    <th class="ps-3 text-secondary fs-6 text-center fw-bold opacity-7">
                                                         Image
                                                     </th>
                                                     <th class="ps-3 text-secondary fs-6 fw-bold opacity-7">Product
@@ -337,8 +350,7 @@
                                             class="table recent-order-table align-items-center border-nne mb-0">
                                             <thead>
                                                 <tr>
-                                                    <th
-                                                        class="ps-3 text-secondary fs-6 text-center fw-bold opacity-7">
+                                                    <th class="ps-3 text-secondary fs-6 text-center fw-bold opacity-7">
                                                         Image
                                                     </th>
                                                     <th class="ps-3 text-secondary fs-6 fw-bold opacity-7">Product
@@ -386,8 +398,7 @@
                                             class="table recent-order-table align-items-center border-nne mb-0">
                                             <thead>
                                                 <tr>
-                                                    <th
-                                                        class="ps-3 text-secondary fs-6 text-center fw-bold opacity-7">
+                                                    <th class="ps-3 text-secondary fs-6 text-center fw-bold opacity-7">
                                                         Image
                                                     </th>
                                                     <th class="ps-3 text-secondary fs-6 fw-bold opacity-7">Product
