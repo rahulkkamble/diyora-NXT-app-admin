@@ -53,7 +53,8 @@ async function processData2() {
                               "<option value='50'>50</option>" +
                               "<option value='-1'>All</option>" +
                               "</select> entries"
-            }
+            },
+            "searching": false,
         });
         const entrySelectBox = document.querySelector('div.dataTables_wrapper div.dataTables_length select');
         entrySelectBox.style.padding = '0.694rem';
