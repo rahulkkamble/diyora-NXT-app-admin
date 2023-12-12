@@ -507,6 +507,10 @@ body {
   height: 100px;
 }
 
+.notice-cards .card:hover {
+  box-shadow: var(--shadow--extra-sm);
+}
+
 /* 3rd row -- recent orders and top selling products ====================== */
 .avatar {
   color: #fff;

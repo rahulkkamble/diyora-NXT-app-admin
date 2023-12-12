@@ -1,3 +1,45 @@
+/* Global */
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-nunito: Nunito;
+  --input-placeholder: Inter;
+
+  /* font sizes */
+  --font-size-xl: 1.25rem;
+  --font-size-sm: 0.88rem;
+  --font-size-xs: 0.75rem;
+  --input-placeholder-size: 1rem;
+
+  /* Colors */
+  --color-black: #000;
+  --color-white: #fff;
+  --primary-100: #5570f1;
+  --black-2: #abafb1;
+  --color-darkslategray: #2b2f32;
+  --input-defaultbackground: rgba(239, 241, 249, 0.6);
+  --black-30: #8b8d97;
+
+  /* Gaps */
+  --gap-11xl: 1.88rem;
+  --gap-5xs: 0.5rem;
+  --gap-base: 1rem;
+
+  /* Paddings */
+  --padding-mid: 1.06rem;
+  --padding-base: 1rem;
+  --padding-5xs: 0.5rem;
+
+  /* Border radiuses */
+  --br-xs: 12px;
+  --br-5xs: 8px;
+}
+/* Global Ends here */
+
 .group-child {
   position: absolute;
   top: 0;
@@ -71,6 +113,8 @@
 }
 .recover-password{
   text-decoration: none;
+  margin-left: auto;
+  margin-top: 5px;
 }
 .recover-password:hover,
 .recover-password:focus,
@@ -173,15 +217,20 @@
   position: relative;
   font-weight: 600;
 }
-.buttons {
+.buttons-login {
   border: none;
   border-radius: var(--br-xs);
   background-color: var(--primary-100);
+  margin-top: 48px;
+  margin-left: auto;
+  margin-right: auto;
   width: 11.25rem;
   display: flex;
   flex-direction: row;
   padding: var(--padding-mid) var(--padding-base);
   box-sizing: border-box;
+  justify-self: center;
+  align-self: center;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -189,7 +238,7 @@
   color: var(--color-white);
   box-shadow: none;
 }
-.formcontent {
+.formcontent-login {
   flex-direction: column;
   align-items: center;
   gap: 3rem;
@@ -197,18 +246,18 @@
   font-size: var(--input-placeholder-size);
   color: var(--black-2);
 }
-.container,
-.formcontainer,
-.formcontent {
+.container-login,
+.formcontainer-login,
+.formcontent-login {
   display: flex;
   justify-content: flex-start;
 }
-.formcontainer {
+.formcontainer-login {
   flex-direction: column;
   align-items: center;
   gap: 3.75rem;
 }
-.container {
+.container-login {
   position: absolute;
   top: 17.13vh;
   right: 7vw;
