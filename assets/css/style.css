@@ -1303,8 +1303,19 @@ div.dataTables_wrapper div.dataTables_filter input{
     height: 100%;
   }
 
-
 /* admin product page - tag */
+
+/* admin dashboard */
+#searchModal .modal-content{
+  max-width: inherit;
+  width: inherit;
+  backdrop-filter: blur(10px);
+  background-color: transparent;
+  background: #fdfdfd;
+}
+/* admin dashboard ends here*/
+
+
 
 /* ======================= Media Query =========================== */
 /* ======================= Media Query =========================== */
