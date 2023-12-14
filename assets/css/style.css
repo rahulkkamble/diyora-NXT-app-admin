@@ -507,9 +507,9 @@ body {
   height: 100px;
 }
 
-.notice-cards .card:hover {
+/* .notice-cards .card:hover {
   box-shadow: var(--shadow--extra-sm);
-}
+} */
 
 /* 3rd row -- recent orders and top selling products ====================== */
 .avatar {
@@ -1233,7 +1233,8 @@ div.dataTables_wrapper div.dataTables_filter input{
 .settings-cards .nav-link.active .card-diamond-link,
 .settings-cards .card-extra-link:hover,
 .settings-cards .card-extra-link:focus,
-.settings-cards .nav-link.active .card-extra-link{
+.settings-cards .nav-link.active .card-extra-link,
+.home-notice-cards .card.hover-links:hover{
   background-color: var(--input-default-bg);
   box-shadow: var(--shadow--extra-sm);
   cursor: pointer;
